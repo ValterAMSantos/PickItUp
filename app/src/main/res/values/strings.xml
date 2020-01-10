@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PickItUp</string>
+    <string name="exportar_artigos">Exportar Artigos</string>
+    <string name="importar_artigos">Importar Artigos</string>
+    <string name="consulta_artigos">Consulta Artigos</string>
+    <string name="menu">Menu</string>
+</resources>
