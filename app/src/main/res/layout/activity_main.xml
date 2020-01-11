@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:background="@mipmap/PickItUp"
-        />
+        android:background="@mipmap/PickItUp" />
 
     <ImageView
+        android:id="@+id/imglogo"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:textSize="35sp"
+        android:background="@drawable/Logo"
         android:gravity="center"
-        android:id="@+id/imglogo"
-        android:visibility="invisible"/>
+        android:textSize="35sp"
+        android:visibility="visible" />
 
 
 </LinearLayout>
