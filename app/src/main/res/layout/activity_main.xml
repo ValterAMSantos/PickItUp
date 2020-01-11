@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:background="@mipmap/pickitup"
+        android:background="@drawable/imagem"
         android:contentDescription="@string/app_name"/>
 
     <ImageView
