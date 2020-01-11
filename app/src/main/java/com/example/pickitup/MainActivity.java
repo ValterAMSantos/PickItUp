@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 change();
             }
-        }, 1000);
+        }, 3000);
 
     }
 

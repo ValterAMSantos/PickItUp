@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/pickitup"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Menu"></activity>
+        <activity android:name=".Opcoes"></activity>
+        <activity android:name=".Menu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

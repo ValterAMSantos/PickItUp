@@ -6,4 +6,8 @@
     <string name="menu">Menu</string>
     <string name="bdcreated">Base de Dados Criada!</string>
     <string name="op_es">Opções</string>
+    <string name="gravar">Gravar</string>
+    <string name="servidor">Servidor</string>
+    <string name="utilizador">Utilizador</string>
+    <string name="password">Password</string>
 </resources>
