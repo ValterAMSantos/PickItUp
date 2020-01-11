@@ -16,20 +16,25 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        img = (ImageView) findViewById(R.id.imglogo);
+        img = findViewById(R.id.imglogo);
+        Splash();
     }
 
     private void Splash(){
 
         Handler logoh  = new Handler();
+        Handler chg  = new Handler();
 
         logoh.postDelayed(new Runnable() {
             public void run() {
                 img.setVisibility(View.VISIBLE);
+            }
+        }, 1000);
+        chg.postDelayed(new Runnable() {
+            public void run() {
                 change();
             }
         }, 1000);
-
 
     }
 
